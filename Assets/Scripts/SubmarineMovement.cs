@@ -4,7 +4,7 @@ public class SubmarineMovement : MonoBehaviour
 {
     public int speed;
 
-    public bool isOn;
+    public static bool isOn;
     public bool PlayerCanEnter;
     public bool PlayerInside;
 
