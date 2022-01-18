@@ -41,18 +41,19 @@
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\pickup_object.cs" />
      <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
-     <Compile Include="Assets\Scripts\SubmarineMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
-     <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
-     <Compile Include="Assets\Scripts\EnemmiPatrol.cs" />
-     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\SubmarineActions.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovementSmall.cs" />
-     <Compile Include="Assets\Scripts\SubmarineActions.cs" />
-     <Compile Include="Assets\Scripts\LoadScenes.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\SubmarineMovement.cs" />
+     <Compile Include="Assets\Scripts\LoadScenes.cs" />
+     <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyOnLoadScene.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovementSmall.cs" />
+     <Compile Include="Assets\Scripts\EnemmiPatrol.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
