@@ -58040,6 +58040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086393572}
   - component: {fileID: 1086393571}
+  - component: {fileID: 1086393573}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -58062,7 +58063,6 @@ MonoBehaviour:
   prefabs:
   - {fileID: 6060106942921297313, guid: 5c8adc77b01abcb4e8ea8427c4ab4410, type: 3}
   - {fileID: 5451395979062464156, guid: b4aeab5002575ec46a5d2120cef5cd17, type: 3}
-  fadeSystem: {fileID: 1944809038}
   player: {fileID: 1440356027}
 --- !u!4 &1086393572
 Transform:
@@ -58078,6 +58078,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1086393573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086393570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3286e41177827948b400f1d8f375e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSystem: {fileID: 1944809038}
 --- !u!1 &1147190194
 GameObject:
   m_ObjectHideFlags: 0
@@ -58364,7 +58377,6 @@ GameObject:
   - component: {fileID: 1440356029}
   - component: {fileID: 1440356028}
   - component: {fileID: 1440356031}
-  - component: {fileID: 1440356032}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -58484,21 +58496,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1440356032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440356027}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c31b6c40d0bcb04a989ea80bc4dae38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  rb: {fileID: 1440356031}
-  animator: {fileID: 0}
 --- !u!1 &1610613254
 GameObject:
   m_ObjectHideFlags: 0
@@ -58686,18 +58683,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.841307, y: 4.1289654}
   m_EdgeRadius: 0
---- !u!114 &1688426311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688426305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34f0187b6f624e640a6eab1afd24d22e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1700379784
 GameObject:
   m_ObjectHideFlags: 0
